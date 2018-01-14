@@ -1,0 +1,26 @@
+.CarDetail {
+  width: 100%;
+  max-width: 30rem;
+  margin: 3rem auto 1rem;
+  padding: 1rem;
+
+  text-align: center;
+}
+
+.CarDetail-image {
+  width: 100%;
+  display: block;
+}
+
+.CarDetail-name {
+  color: #d4d4dc;
+  margin: 0;
+
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+.CarDetail-price {
+  color: #d4d4dc;
+  margin: 0;
+}

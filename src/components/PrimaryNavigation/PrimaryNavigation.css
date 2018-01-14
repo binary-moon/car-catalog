@@ -1,0 +1,55 @@
+/*
+Are ya yellow?!: #feda6a
+Silver Fox: #d4d4dc
+Deep Matte Grey: #393f4d
+Dark Slate: #1d1e22
+*/
+
+.PrimaryNavigation {
+  background: #1d1e22;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.PrimaryNavigation-logo {
+  margin: 0;
+
+  color: #feda6a;
+  font-weight: bold;
+
+  font-size: 3rem;
+}
+
+.PrimaryNavigation-links {
+  margin: 0 0 0 3rem;
+}
+
+.PrimaryNavigation-link {
+  padding: 0 .5rem;
+
+  text-decoration: none;
+  color: #d4d4dc;
+}
+
+.PrimaryNavigation-link.active,
+.PrimaryNavigation-link:hover {
+  color: #feda6a;
+}
+
+@media (max-width: 960px) {
+  .PrimaryNavigation {
+    flex-direction: column;
+  }
+
+  .PrimaryNavigation-logo {
+    margin: 0 0 1rem;
+  }
+
+  .PrimaryNavigation-links {
+    margin: 0;
+  }
+}
